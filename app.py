@@ -17,7 +17,7 @@ JWT_SECRET_KEY = 'SPARTA'
 app.config['SECRET_KEY'] = JWT_SECRET_KEY
 
 
-client = MongoClient("localhost", 27017)
+client = MongoClient("13.209.66.226", 27017, username="test", password="test")
 db = client.db_react
 
 
